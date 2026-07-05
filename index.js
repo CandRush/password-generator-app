@@ -15,6 +15,8 @@ function getRandomPassword() {
 	return password[random]
 }
 function generatePassword() {
+	passwordOneEl.textContent = ""
+	passwordTwoEl.textContent = ""
 	for (let i = 0; i < 15; i++) {
 		passwordOneEl.textContent += getRandomPassword()
 		passwordTwoEl.textContent += getRandomPassword()
