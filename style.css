@@ -1,0 +1,76 @@
+body {
+	background: #1f2937;
+	text-align: center;
+	font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+	margin-top: 80px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-width: 200px;
+	text-align: left;
+}
+h1 {
+	color: #e2ecf3;
+}
+span {
+	color: #efb619;
+}
+.text {
+	color: #d5d4d8;
+}
+.ruler {
+	min-width: 360px;
+	border: 1px solid gray;
+	height: 0px;
+}
+#generate-el {
+	background: #efb619;
+	border: none;
+	border-radius: 5px;
+	color: black;
+	padding: 10px 15px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+#generate-el:hover{
+	background: #efc619;
+	cursor: pointer;
+}
+.div-container {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	margin-top: 50px;
+	
+}
+.password-one {
+	background: #273549;
+	color: #efb619;
+	border: 1px solid #283549;
+	min-width: 150px;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+.password-two {
+	background: #273549;
+	color: #efb619;
+	border: 1px solid #283549;
+	min-width: 150px;
+	border-radius: 5px;
+	padding: 10px 15px;
+}
+.copy-to-clipboard {
+	border: none;
+	background: #273549;
+	color: white;
+	height: 80px;
+	border-radius: 5px;
+	padding: 10px 15px;
+	cursor: pointer;
+	margin-right: 20px;
+	font-weight: bold;
+}
